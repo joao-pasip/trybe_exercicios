@@ -8,12 +8,12 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-###### Bloco 01: [Unix & Bash](https://github.com/joao-pasip/trybe_exercicios/tree/master/fundamentos/bloco_01_unix_e_bash)
+##### Bloco 01: [Unix & Bash](https://github.com/joao-pasip/trybe_exercicios/tree/master/fundamentos/bloco_01_unix_e_bash)
 
- -[x] 1.3 - Fundamentos do Desenvolvimento Web
- -[x] 1.3 - Introdução Unix & Shell
- -[x] 1.3 - Unix & Bash / Parte 1
- -[x] 1.4 - Unix & Bash / Parte 2
+ - [x] 1.3 - Fundamentos do Desenvolvimento Web
+ - [x] 1.3 - Introdução Unix & Shell
+ - [x] 1.3 - Unix & Bash / Parte 1
+ - [x] 1.4 - Unix & Bash / Parte 2
 
 
 
