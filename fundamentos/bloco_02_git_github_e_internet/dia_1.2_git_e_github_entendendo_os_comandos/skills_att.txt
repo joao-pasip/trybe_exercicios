@@ -4,4 +4,6 @@ Unix
 Git
 GitHub
 Autoliderança
+HTML
+CSS
 
