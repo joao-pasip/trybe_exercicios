@@ -11,6 +11,7 @@
             height: 25px;
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
         }
 
         #cores-favoritas {
@@ -23,15 +24,45 @@
            color: azure;
         }
        
+        body {
+            font-size: 16px;
+        }
+
+        p {
+            font-family: monospace;
+            font-weight: 600;
+            font-size: 3em;
+        }
+
+        #azul {
+            background-color: blue;
+            font-style: italic ;
+            color:whitesmoke;
+            font-weight: bold;
+        }
+
+        #preto {
+            background-color: black;
+            font-style: italic;
+            font-weight: bold;
+            color: red;
+        }
+
+        #amarelo {
+            background-color: yellow;
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+        }
     </style>
 </head>
 <body>
     <h1>Exercícios 3.2</h1>
     <p class="teste-background">Qual é a sua cor favorita?</p>
     <ul class="teste-background">
-        <li>Azul</li>
-        <li>Preto</li>
-        <li>Amarelo</li>
+        <li id="azul">Azul</li>
+        <li id="preto">Preto</li>
+        <li id="amarelo">Amarelo</li>
     </ul>
 </body>
 </html>
