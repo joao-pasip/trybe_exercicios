@@ -8,8 +8,8 @@
 //console.log(birthCity);
 //console.log(birthYear);
 
-
-/*let patientId = 50;
+/*Tipos primitivos e tipagem dinâmica
+let patientId = 50;
 let isEnrolled = true;
 const patientInfo = {
   firstName: 'Ana',
@@ -23,10 +23,11 @@ console.log(typeof patientInfo);
 console.log(typeof patientEmail);
 console.log(typeof patientAge);*/
 
+/*Atividade do RETÂNGULO
 const base = 5;
 let height = 8;
 const area = base * height;
 const perimeter = base + base + height + height;
 
 console.log(area);
-console.log(perimeter);
+console.log(perimeter);*/
