@@ -77,14 +77,32 @@ console.log(true || false); // true
 console.log(false || true); // true
 console.log(false || false); // false*/
 
-/*VOLTAR NESSE EXEMPLO
-let weekDay = "Domingo";
-if (weekDay === ("segunda-feira") || ("terça-feira") || ("quarta-feira") || ("quinta-feira") || ("sexta-feira")){
-    console.log ("Oba, mais um dia de aprendizado na Trybe >:D");
-} else {
-    console.log("FINALMENTE, descanso merecido UwU");
+//VOLTAR NESSE EXEMPLO
+let weekDay = "terça-feira";
+
+switch (weekDay) {
+    case "segunda-feira":
+        console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+        break;
+    case "terça-feira":
+        console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+        break;
+    case "quarta-feira":
+        console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+        break;
+    case  "quinta-feira":
+        console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+        break;
+    case "sexta-feira":
+        console.log("Oba, mais um dia de aprendizado na Trybe >:D");
+        break;
+    case "sábado":
+        console.log("FINALMENTE, descanso merecido UwU");
+        break;
+    case "domingo":
+        console.log("FINALMENTE, descanso merecido UwU");
+        break;
 }
-*/
 
 
 /*ESTRUTURA SWITCH/CASE
