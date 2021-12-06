@@ -1,0 +1,50 @@
+h1 {
+    height: 25px;
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+
+#cores-favoritas {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.teste-background {
+   background-color: gray; 
+   color: azure;
+}
+
+body {
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#azul {
+    background-color: blue;
+    font-style: italic ;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+#preto {
+    background-color: black;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+}
+
+#amarelo {
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
