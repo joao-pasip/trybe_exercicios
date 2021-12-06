@@ -1,0 +1,26 @@
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 3px solid green;
+}
+
+nav ul {
+    text-align: center;
+    border: 3px solid black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: green;
+    color: aliceblue;
+}
