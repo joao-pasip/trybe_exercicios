@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Currículo</title>
+</head>
+<body>
+  <header>
+    <h1>Formulário de Currículo</h1>
+  </header>
+  <main>  
+    <form action="" method="get">
+      <section>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <div>
+          <label for="nome_completo"> Nome Completo:
+            <input type="text" maxlength="40" name="nome" id="nome_completo" placeholder="Digite seu nome" autofocus required > 
+          </label>
+        </div>
+
+        <div>
+          <label for="input_email"> E-mail:
+            <input type="email" maxlength="50" name="e-mail" id="input_email" placeholder="exemplo@email.com" required>
+          </label> 
+        </div>
+      
+        <div>
+          <label for="input_cpf"> CPF:
+            <input type="text" maxlength="11" name="CPF" id="input_cpf" placeholder="Somente números" required>
+          </label>
+        </div>
+        
+        <div>
+          <label for="input_endereco"> Endereço:
+            <input type="text" name="endereço" id="input_endereco" maxlength="200" placeholder="Rua - Bairro, Número" required>
+          </label>
+        </div>
+        
+        <div>
+          <label for="input_cidade"> Cidade:
+            <input type="text" name="cidade" id="input_cidade" maxlength="28" placeholder="Digaê sua cidade" required>
+          </label>
+        </div>
+        
+        <div>
+          <label for="option_estado"> Estado:</label>
+            <select name="estado" id="option_estado" required>
+              <option disabled selected value=""> Selecione seu estado</option>
+            </select>
+        </div>
+
+        <div>
+          <label for="moradia">Moradia:
+            <label for="input_casa"> 
+              <input type="radio" name="moradia" id="input_casa" value="casa" required> Casa
+            </label>
+
+            <label for="input_ap">
+              <input type="radio" name="moradia" id="input_ap" value="apartamento" required> Apartamento
+            </label>
+          </label>
+        </div>
+      </fieldset>
+      </section>
+
+      <section>
+        <fieldset>
+          <legend>Dados Profissionais</legend>
+
+          <div>
+            <label for="input_resumo"> Resumo do Currículo
+              <textarea name="dropdown" id="input_resumo" cols="30" rows="10" maxlength="1000" placeholder="Até 1000 mil caracteres para utilizar no seu resumo." required></textarea>
+            </label>
+          </div>
+
+          <div>
+            <label for="input_cargo"> Cargo:
+              <input type="text" name="cargo" id="input_cargo" maxlength="40" placeholder="Digite o cargo desejado" required>
+            </label>
+          </div>
+
+          <div>
+            <label for="input_descricao_cargo"> Descrição do cargo:
+              <input type="text" name="descrCargo" id="input_descricao_cargo" maxlength="500" placeholder="Diga brevemente sua experiência." required>
+            </label>
+          </div>
+            
+          <div>
+            <label for="input_data"> Data de início:
+              <input type="text" name="data" id="input_data" placeholder="dd/mm/aaaa" required>
+            </label>
+          </div>
+        </fieldset>
+      </section>
+      <button class="submit-button" type="submit">Enviar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
