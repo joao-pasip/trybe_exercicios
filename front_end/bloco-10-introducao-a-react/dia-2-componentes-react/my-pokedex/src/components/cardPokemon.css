@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px;
+  border: solid 2px green;
+}
+
+.oPokemon {
+  display: flex;
+  border: solid 2px red;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 20px;
+}
